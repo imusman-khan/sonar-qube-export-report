@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sonar-qube-export-report"
+version = "0.1.0"
+description = "SonarQube Report Exporter – A tool to generate PDF reports from SonarQube analysis, including key metrics, issues, and quality gates for easy sharing and insights. 🚀"
+authors = ["Muhammad Usman Khan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+reportlab = "^4.3.0"
+requests = "^2.32.3"
+load-dotenv = "^0.1.0"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.7.1"
+click = "^8.1.8"
+black = "^25.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
